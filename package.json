@@ -4,7 +4,8 @@
   "description": "Setup CI/CD with GitHub Actions",
   "main": "index.js",
   "scripts": {
-    "build": "webpack src/app.js -o public/bundle.js"
+    "build": "webpack src/app.js -o public/bundle.js",
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -17,6 +18,7 @@
   },
   "homepage": "https://github.com/sitek94/github-actions-demo#readme",
   "devDependencies": {
+    "jest": "^26.6.3",
     "webpack": "^5.31.0",
     "webpack-cli": "^4.6.0"
   }
