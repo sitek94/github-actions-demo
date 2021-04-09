@@ -1,0 +1,19 @@
+{
+  "name": "github-actions-demo",
+  "version": "1.0.0",
+  "description": "Setup CI/CD with GitHub Actions",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sitek94/github-actions-demo.git"
+  },
+  "author": "Maciek Sitkowski",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sitek94/github-actions-demo/issues"
+  },
+  "homepage": "https://github.com/sitek94/github-actions-demo#readme"
+}
