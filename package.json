@@ -4,7 +4,7 @@
   "description": "Setup CI/CD with GitHub Actions",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "webpack src/app.js -o public/bundle.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/sitek94/github-actions-demo/issues"
   },
-  "homepage": "https://github.com/sitek94/github-actions-demo#readme"
+  "homepage": "https://github.com/sitek94/github-actions-demo#readme",
+  "devDependencies": {
+    "webpack": "^5.31.0",
+    "webpack-cli": "^4.6.0"
+  }
 }
