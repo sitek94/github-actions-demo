@@ -4,7 +4,7 @@
   "description": "Setup CI/CD with GitHub Actions",
   "main": "index.js",
   "scripts": {
-    "build": "webpack src/app.js -o public/bundle.js",
+    "build": "webpack ./src/app.js -o ./public/bundle.js",
     "test": "jest"
   },
   "repository": {
